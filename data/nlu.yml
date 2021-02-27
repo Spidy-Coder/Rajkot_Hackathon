@@ -99,8 +99,8 @@ nlu:
     - city bus pass
     - brts bus pass
 
- - intent: e_memo
-   examples: |
+- intent: e_memo
+  examples: |
      - memo
      - memo payment
      - how do i pay memo

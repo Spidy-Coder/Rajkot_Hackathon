@@ -42,11 +42,11 @@ stories:
 - story: properties
   steps:
     - intent: property
-    -action: utter_property
+    - action: utter_property
 - story: waters
   steps:
     - intent: water
-    -action: utter_water
+    - action: utter_water
 
 - story: happy profession
   steps:
@@ -91,4 +91,3 @@ stories:
   steps:
    - intent: call_center
    - action: utter_call_center
-

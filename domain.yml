@@ -1,48 +1,94 @@
-version: "2.0"
-
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - what_is_rmc
-  - online_services
-  - property
-  - water
-  - profession
-  - rti
-  - hall_booking
-  - sports
-  - shop
-  - city_bus
-  - e_memo
-  - vehicle
-  - call_center
-  -
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+version: '2.0'
+config:
+  store_entities_as_slots: true
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- what_is_rmc:
+    use_entities: true
+- online_services:
+    use_entities: true
+- property:
+    use_entities: true
+- water:
+    use_entities: true
+- profession:
+    use_entities: true
+- rti:
+    use_entities: true
+- hall_booking:
+    use_entities: true
+- sports:
+    use_entities: true
+- shop:
+    use_entities: true
+- city_bus:
+    use_entities: true
+- e_memo:
+    use_entities: true
+- vehicle:
+    use_entities: true
+- call_center:
+    use_entities: true
+- thanks:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Hey! How may i help you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_rmc:
+  - text: |-
+      Rajkot Municipal Corporation (RMC) is a local government committed to provide basic infrastructure facilities including entertainment facilities to the people of the city. 
+       RMC is very well known for managing the city by using private sector participation as well as the introduction of innovative mechanisms in management to serve people efficiently. The city has prepared different plans for improving services and nullifying the gap between services and demands.
+  utter_services:
+  - text: 'We offer the following services: Property Tax, Water Charge, Profession Tax, RTI, Community Hall Booking, Shop and Establishment, Sports Registration, Rajkot Rajpath Ltd.(Bus Service), E-memo, VehicleTax, 24*7 Call Center'
+  utter_property:
+  - text: ' Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year. For property tax payment go to : https://www.rmcegov.gov.in/payonline/propertytax.php'
+actions:
+- utter_greet
+- utter_happy
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_rmc
+- utter_services
+- utter_property
+- utter_water
+- utter_profession
+- utter_rti
+- utter_booking
+- utter_sports
+- utter_shop
+- utter_bus
+- utter_ememo
+- utter_vehicle
+- utter_call_center
+forms: {}
+e2e_actions: []
