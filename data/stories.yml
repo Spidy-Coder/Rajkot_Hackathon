@@ -1,0 +1,94 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: rmc
+  steps:
+    - intent: what_is_rmc
+    - action: utter_rmc
+
+- story: online service
+  steps:
+    - intent: online_services
+    - action: utter_services
+
+- story: properties
+  steps:
+    - intent: property
+    -action: utter_property
+- story: waters
+  steps:
+    - intent: water
+    -action: utter_water
+
+- story: happy profession
+  steps:
+    - intent: profession
+    - action: utter_profession
+- story: happy rti
+  steps:
+    - intent: rti
+    - action: utter_rti
+
+- story: happy hall booking
+  steps:
+    - intent: hall_booking
+    - action: utter_booking
+
+- story: happy sports
+  steps:
+    - intent: sports
+    - action: utter_sports
+
+- story: happy shop
+  steps:
+    - intent: shop
+    - action: utter_shop
+
+- story: happy city bus
+  steps:
+    - intent: city_bus
+    - action: utter_bus
+
+- story: happy memo
+  steps:
+    - intent: e_memo
+    - action: utter_ememo
+
+- story: happy vehicle
+  steps:
+    - intent: vehicle
+    - action: utter_vehicle
+
+- story: happy call center
+  steps:
+   - intent: call_center
+   - action: utter_call_center
+

@@ -1,0 +1,202 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: thanks
+  examples: |
+    -
+- intent : what_is_rmc
+  examples: |
+    - What is rmc?
+    - what is rajkot municiple corporation?
+    - rmc
+    - municiple corporation
+    - can i know more about rmc
+    - i want to know about rmc
+    - where is rmc head office
+    - rmc website
+    - rmc contact
+
+- intent: online_services
+  examples: |
+    - what services does rmc provide
+    - online service
+    - rmc services
+
+- intent: property
+  examples: |
+    - what is property tax
+    - can i know more about property tax
+    - how do i pay property tax
+    - property tax
+
+- intent: water
+  examples: |
+    - water charges
+    - how to pay water charges
+    - what is water charge
+    - can i know more about water charge
+
+- intent: profession
+  examples: |
+    - profession tax
+    - enrollment certificate
+    - how to pay profession tax
+    - what is water charge
+    - can i know more about profession tax
+    - registration certificate
+
+- intent: rti
+  examples: |
+    - what is rti
+    - rti status
+    - rti disclosure
+    - rti applicatoin status
+    - rti proactive disclosure
+
+- intent: hall_booking
+  examples: |
+    - how do i book community hall
+    - hall booking form
+    - booking form
+    - auditorium hall booking
+    - audirorium booking form
+    - is any hall booking open
+
+- intent: sports
+  examples: |
+    - is sports registration open
+    - sports registration
+
+- intent: shop
+  examples: |
+    - shop registration
+    - application form for shop registration
+    - application form
+    - insrtuction for shop establisment
+    - new shop registration
+
+- intent: city_bus
+  examples: |
+    - bus pass
+    - bus pass registration
+    - student bus pass
+    - city bus pass
+    - brts bus pass
+
+ - intent: e_memo
+   examples: |
+     - memo
+     - memo payment
+     - how do i pay memo
+     - vehicle memo
+     - what is e-memo
+     - what is memo
+
+- intent: vehicle
+  examples: |
+    - individual vehicle tax
+    - vehicle tax
+    - dealer vehicle tax
+    - how do i pay vehicle tax
+    - how to pay vehicle tax
+    - vehicle
+
+- intent: call_center
+  examples: |
+    - complain registration
+    - complain status
+    - complain form
+    - file complain
+    - how to file complain
+    - i want to file complain
+    - complain
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
