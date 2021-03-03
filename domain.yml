@@ -70,10 +70,14 @@ responses:
   utter_services:
   - text: 'We offer the following services: Property Tax, Water Charge, Profession Tax, RTI, Community Hall Booking, Shop and Establishment, Sports Registration, Rajkot Rajpath Ltd.(Bus Service), E-memo, VehicleTax, 24*7 Call Center'
   utter_property:
-  - text: ' Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year. 1.For property tax payment,go to:https://www.rmcegov.gov.in/payonline/propertytax.php 2.To view property payment:-http://rmc.gov.in/rmcwebsite/tax_new.aspx
+  - text:  'Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year.\n 1.For property tax payment,go to:https://www.rmcegov.gov.in/payonline/propertytax.php \n 2.To view property payment:-http://rmc.gov.in/rmcwebsite/tax_new.aspx
            3.To view property tax bills/receipt: http://rmc.gov.in/rmcwebsite/tax_bill_receipt_new.aspx'
-
-
+  utter_water:
+  - text:  'Having access to safe drinking waiter is a basic human right.The water charges by RMC are fair and equal to all the residents.\n 1.For water charge payment,go to:https://www.rmcegov.gov.in/payonline/watertax.php\n 2.To view water charge:-http://rmc.gov.in/rmcwebsite/water_tax.aspx \n
+           3.To view water charge bills/receipt:http://rmc.gov.in/rmcwebsite/water_tax_bill_receipt.aspx'
+  utter_profession:
+    - text: 'Professional tax can be defined as a tax that is levied by a state government on all individuals who earn a living through any medium.This is a type of tax that needs to be paid by each and every individual earning income. \n 1.To make profession tax payment(EC):-https://www.rmcegov.gov.in/payonline/proftax.php \n 2.To make profession tax payment(RC):-http://rmc.gov.in/rmcwebsite/frm_profession_tax_rc_payment.aspx
+             \n 3.To view profession tax payment history:-http://rmc.gov.in/rmcwebsite/professional_tax_history.aspx
 actions:
 - utter_greet
 - utter_happy
