@@ -70,17 +70,8 @@ responses:
   utter_services:
   - text: 'We offer the following services: Property Tax, Water Charge, Profession Tax, RTI, Community Hall Booking, Shop and Establishment, Sports Registration, Rajkot Rajpath Ltd.(Bus Service), E-memo, VehicleTax, 24*7 Call Center'
   utter_property:
-  - text: ' Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year. For property tax payment go to : https://www.rmcegov.gov.in/payonline/propertytax.php \n For viewing your property payment please go to : http://rmc.gov.in/rmcwebsite/tax_new.aspx \n For viewing your bills and receipt visit: http://rmc.gov.in/rmcwebsite/tax_bill_receipt_new.aspx'
-  utter_sports:
-  - text: ' Currently sports registration are postponed and will be declared in the next announcement but Tennis court, Athletic track, Gym and basketball batch are open. for more information you can visit : http://www.rmc.gov.in/rmcwebsite/frm_sports_member_master.aspx'
-  utter_bus:
-  - text: 'You can get your bus pass by entering the required information on our website : http://www.rmc.gov.in/rmcwebsite/frm_rajpath_registration.aspx'
-  utter_ememo:
-  - text: 'You can easily check your vehicle memo using our website. You just have to enter you vehicle number on our website: http://www.rmc.gov.in/rmcwebsite/frm_ememo_payment.aspx'
-  utter_vehicle:
-  - text: 'On our website you can pay your individual or dealer vehicle tax only by one click, For paying your vehicle tax for individual and dealer visit our website: http://www.rmc.gov.in/rmcwebsite/frm_vt_home.aspx'
-  utter_call_center:
-  - text: 'For filing your complaint or just checking your your complain status visit our following websites. \n For filing your complaints visit: http://www.rmc.gov.in/rmcwebsite/complainregistration.aspx. \n For checking your complain status visit : http://www.rmc.gov.in/rmcwebsite/complaintstatus.aspx.'
+  - text: ' Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year. For property tax payment go to : https://www.rmcegov.gov.in/payonline/propertytax.php'
+  - text: 'abce'
 actions:
 - utter_greet
 - utter_happy
