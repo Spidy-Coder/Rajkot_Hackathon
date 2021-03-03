@@ -80,7 +80,7 @@ responses:
   utter_vehicle:
     - text: 'You can pay your individual and dealer vehicle on our website itself. \n For paying your individual and dealer vehicle tax visit: http://www.rmc.gov.in/rmcwebsite/frm_vt_home.aspx'
   utter_call_center:
-    - text: 'On our website you can easily file any complaint of just check the status of your complaint. \n For filing a complaint visit: http://www.rmc.gov.in/rmcwebsite/complainregistration.aspx \n For checking the status of your complaint visit: http://www.rmc.gov.in/rmcwebsite/complaintstatus.aspx'
+    - text: 'On our website you can easily file any complaint or just check the status of your complaint. \n For filing a complaint visit: http://www.rmc.gov.in/rmcwebsite/complainregistration.aspx \n For checking the status of your complaint visit: http://www.rmc.gov.in/rmcwebsite/complaintstatus.aspx'
 
 
 actions:
