@@ -96,7 +96,7 @@ responses:
 
   utter_water:
   - text: |-
-      Having access to safe drinking waiter is a basic human right.The water charges by RMC are fair and equal to all the residents.
+      Having access to safe drinking water is a basic human right.The water charges by RMC are fair and equal to all the residents.
       1.For water charge payment,go to:https://www.rmcegov.gov.in/payonline/watertax.php
       2.To view water charge:-http://rmc.gov.in/rmcwebsite/water_tax.aspx
       3.To view water charge bills/receipt:http://rmc.gov.in/rmcwebsite/water_tax_bill_receipt.aspx
