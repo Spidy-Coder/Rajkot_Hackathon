@@ -71,6 +71,7 @@ responses:
   - text: 'We offer the following services: Property Tax, Water Charge, Profession Tax, RTI, Community Hall Booking, Shop and Establishment, Sports Registration, Rajkot Rajpath Ltd.(Bus Service), E-memo, VehicleTax, 24*7 Call Center'
   utter_property:
   - text: ' Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year. For property tax payment go to : https://www.rmcegov.gov.in/payonline/propertytax.php'
+  - text: 'ghhjjjj'
 actions:
 - utter_greet
 - utter_happy
