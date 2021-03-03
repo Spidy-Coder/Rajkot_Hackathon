@@ -71,6 +71,16 @@ responses:
   - text: 'We offer the following services: Property Tax, Water Charge, Profession Tax, RTI, Community Hall Booking, Shop and Establishment, Sports Registration, Rajkot Rajpath Ltd.(Bus Service), E-memo, VehicleTax, 24*7 Call Center'
   utter_property:
   - text: ' Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year. For property tax payment go to : https://www.rmcegov.gov.in/payonline/propertytax.php'
+  utter_sports:
+    - text: 'Currently the sports registrations are postponed till the next announcement but Tennis Court, Athletic Track, Gym and Basketball Batch are open. \n For more information visit: http://www.rmc.gov.in/rmcwebsite/frm_sports_member_master.aspx'
+  utter_bus:
+    - text: 'You can get your student pass, bus pass, brts pass or city bus pass by entering your aadhaar number on this website: http://www.rmc.gov.in/rmcwebsite/frm_rajpath_registration.aspx'
+  utter_ememo:
+    - text: 'You can easily pay your vehicle memo on our website by just entering your vehicle number on this website : http://www.rmc.gov.in/rmcwebsite/frm_ememo_payment.aspx'
+  utter_vehicle:
+    - text: 'You can pay your individual and dealer vehicle on our website itself. \n For paying your individual and dealer vehicle tax visit: http://www.rmc.gov.in/rmcwebsite/frm_vt_home.aspx'
+  utter_call_center:
+    - text: 'On our website you can easily file any complaint of just check the status of your complaint. \n For filing a complaint visit: http://www.rmc.gov.in/rmcwebsite/complainregistration.aspx \n For checking the status of your complaint visit: http://www.rmc.gov.in/rmcwebsite/complaintstatus.aspx'
 
 
 actions:
