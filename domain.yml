@@ -54,7 +54,7 @@ responses:
   - text: Hey! How may i help you?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
+    text: Here is something to cheer you up:'
   utter_did_that_help:
   - text: Did that help you?
   utter_happy:
@@ -63,48 +63,112 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-    - utter_services:
-        - text: 'We offer the following services: Property Tax, Water Charge, Profession Tax, RTI, Community Hall Booking, Shop and Establishment, Sports Registration, Rajkot Rajpath Ltd.(Bus Service), E-memo, VehicleTax, 24*7 Call Center'
+  utter_services:
+  - text: |-
+      We offer the following services:
+      1.  Property Tax
+      2.  Water Charge
+      3.  Profession Tax
+      4.  RTI
+      5.  Community Hall Booking
+      6.  Shop and Establishment
+      7.  Sports Registration
+      8.  Rajkot Rajpath Ltd.(Bus Service)
+      9.  E-memo
+      10. VehicleTax
+      11. 24*7 Call Center'
+
   utter_rmc:
   - text: |-
       Rajkot Municipal Corporation (RMC) is a local government committed to provide basic infrastructure facilities including entertainment facilities to the people of the city. 
-       RMC is very well known for managing the city by using private sector participation as well as the introduction of innovative mechanisms in management to serve people efficiently. The city has prepared different plans for improving services and nullifying the gap between services and demands.
-  utter_property:
-    - text: 'Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year.\n
-            1.For property tax payment,go to:https://www.rmcegov.gov.in/payonline/propertytax.php \n
-            2.To view property payment:-http://rmc.gov.in/rmcwebsite/tax_new.aspx \n
-            3.To view property tax bills/receipt: http://rmc.gov.in/rmcwebsite/tax_bill_receipt_new.aspx'
-  utter_water:
-    - text: 'Having access to safe drinking waiter is a basic human right.The water charges by RMC are fair and equal to all the residents.\n 1.For water charge payment,go to:https://www.rmcegov.gov.in/payonline/watertax.php\n
-           2.To view water charge:-http://rmc.gov.in/rmcwebsite/water_tax.aspx \n
-           3.To view water charge bills/receipt:http://rmc.gov.in/rmcwebsite/water_tax_bill_receipt.aspx'
-  utter_profession:
-    - text: 'Professional tax can be defined as a tax that is levied by a state government on all individuals who earn a living through any medium.This is a type of tax that needs to be paid by each and every individual earning income. \n 1.To make profession tax payment(EC):-https://www.rmcegov.gov.in/payonline/proftax.php \n
-              2.To make profession tax payment(RC):-http://rmc.gov.in/rmcwebsite/frm_profession_tax_rc_payment.aspx \n
-              3.To view profession tax payment history:-http://rmc.gov.in/rmcwebsite/professional_tax_history.aspx'
-  utter_rti:
-    -text: 'RTI stands for Right To Information Act.It means that any Indian citizen can request any information (which is supposed to be public knowledge) from the offices and departments of the state or central governments. \n
-            1.To view RTI Application status:-http://rmc.gov.in/rmcwebsite/rti_status.aspx \n
-            2.For RTI Proactive disclosure:-http://rmc.gov.in/rmcwebsite/rti.aspx'
-  utter_booking:
-    - text: 'Due to the spread of Covid-19,please take required preventive measures.\n To book your desired community hall,kindly go to:-http://rmc.gov.in/rmcwebsite/hall_booking.aspx'
-  utter_shop:
-    - text: 'Here are the links to required documents for Shop and Establishment.Kindly visit the websites as per your need. \n
-            Form A: http://www.rmc.gov.in/rmcwebsite/docs/shop_esta/Form-A.pdf \n
-            Form D: http://www.rmc.gov.in/rmcwebsite/docs/shop_esta/Form-D.pdf \n
-            Instruction: http://www.rmc.gov.in/rmcwebsite/docs/shop_esta/instruction.pdf \n
-            New Shop Registration: http://www.rmc.gov.in/rmcwebsite/frm_shop_registration.aspx'
-  utter_sports:
-    - text: 'Currently the sports registrations are postponed till the next announcement but Tennis Court, Athletic Track, Gym and Basketball Batch are open. \n For more information visit: http://www.rmc.gov.in/rmcwebsite/frm_sports_member_master.aspx'
-  utter_bus:
-    - text: 'You can get your student pass, bus pass, brts pass or city bus pass by entering your aadhaar number on this website: http://www.rmc.gov.in/rmcwebsite/frm_rajpath_registration.aspx'
-  utter_ememo:
-    - text: 'You can easily pay your vehicle memo on our website by just entering your vehicle number on this website : http://www.rmc.gov.in/rmcwebsite/frm_ememo_payment.aspx'
-  utter_vehicle:
-    - text: 'You can pay your individual and dealer vehicle on our website itself. \n For paying your individual and dealer vehicle tax visit: http://www.rmc.gov.in/rmcwebsite/frm_vt_home.aspx'
-  utter_call_center:
-    - text: 'On our website you can easily file any complaint or just check the status of your complaint. \n For filing a complaint visit: http://www.rmc.gov.in/rmcwebsite/complainregistration.aspx \n For checking the status of your complaint visit: http://www.rmc.gov.in/rmcwebsite/complaintstatus.aspx'
+      RMC is very well known for managing the city by using private sector participation as well as the introduction of innovative mechanisms in management to serve people efficiently. The city has prepared different plans for improving services and nullifying the gap between services and demands.
 
+      We hope this was helpful.Come back soon! :)
+
+  utter_property:
+  - text: |-
+      Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year.
+      1.For property tax payment,go to:https://www.rmcegov.gov.in/payonline/propertytax.php
+      2.To view property payment:-http://rmc.gov.in/rmcwebsite/tax_new.aspx
+      3.To view property tax bills/receipt: http://rmc.gov.in/rmcwebsite/tax_bill_receipt_new.aspx'
+
+      We hope this was helpful.Come back soon! :)
+
+  utter_water:
+  - text: |-
+      Having access to safe drinking waiter is a basic human right.The water charges by RMC are fair and equal to all the residents.
+      1.For water charge payment,go to:https://www.rmcegov.gov.in/payonline/watertax.php
+      2.To view water charge:-http://rmc.gov.in/rmcwebsite/water_tax.aspx
+      3.To view water charge bills/receipt:http://rmc.gov.in/rmcwebsite/water_tax_bill_receipt.aspx
+
+      We hope this was helpful.Come back soon! :)
+
+  utter_profession:
+  - text: |-
+      Professional tax can be defined as a tax that is levied by a state government on all individuals who earn a living through any medium.This is a type of tax that needs to be paid by each and every individual earning income.
+      1.To make profession tax payment(EC):-https://www.rmcegov.gov.in/payonline/proftax.php
+      2.To make profession tax payment(RC):-http://rmc.gov.in/rmcwebsite/frm_profession_tax_rc_payment.aspx
+      3.To view profession tax payment history:-http://rmc.gov.in/rmcwebsite/professional_tax_history.aspx
+
+      We hope this was helpful.Come back soon! :)
+
+  utter_rti:
+  - text: |-
+      RTI stands for Right To Information Act.It means that any Indian citizen can request any information (which is supposed to be public knowledge) from the offices and departments of the state or central governments.
+      1.To view RTI Application status:-http://rmc.gov.in/rmcwebsite/rti_status.aspx
+      2.For RTI Proactive disclosure:-http://rmc.gov.in/rmcwebsite/rti.aspx
+
+      We hope this was helpful.Come back soon! :)
+
+  utter_booking:
+  - text: |-
+      Due to the spread of Covid-19,please take required preventive measures.
+      To book your desired community hall,kindly go to:-http://rmc.gov.in/rmcwebsite/hall_booking.aspx
+
+      We hope this was helpful.Come back soon! :)
+
+  utter_shop:
+  - text: |-
+      Here are the links to required documents for Shop and Establishment.Kindly visit the websites as per your need.
+      Form A: http://www.rmc.gov.in/rmcwebsite/docs/shop_esta/Form-A.pdf
+      Form D: http://www.rmc.gov.in/rmcwebsite/docs/shop_esta/Form-D.pdf
+      Instruction: http://www.rmc.gov.in/rmcwebsite/docs/shop_esta/instruction.pdf
+      New Shop Registration: http://www.rmc.gov.in/rmcwebsite/frm_shop_registration.aspx'
+
+      We hope this was helpful.Come back soon! :)
+
+  utter_sports:
+  - text: |-
+      Currently the sports registrations are postponed till the next announcement but Tennis Court, Athletic Track, Gym and Basketball Batch are open.
+      For more information visit: http://www.rmc.gov.in/rmcwebsite/frm_sports_member_master.aspx'
+
+      We hope this was helpful.Come back soon! :)
+
+  utter_bus:
+  - text: |-
+      You can get your student pass, bus pass, brts pass or city bus pass by entering your aadhaar number on this website: http://www.rmc.gov.in/rmcwebsite/frm_rajpath_registration.aspx
+
+      We hope this was helpful.Come back soon! :)
+
+  utter_ememo:
+  - text: |-
+      You can easily pay your vehicle memo on our website by just entering your vehicle number on this website : http://www.rmc.gov.in/rmcwebsite/frm_ememo_payment.aspx
+
+      We hope this was helpful.Come back soon! :)
+  utter_vehicle:
+  - text: |-
+      You can pay your individual and dealer vehicle on our website itself.
+      For paying your individual and dealer vehicle tax visit: http://www.rmc.gov.in/rmcwebsite/frm_vt_home.aspx'
+
+      We hope this was helpful.Come back soon! :)
+
+  utter_call_center:
+  - text: |-
+      On our website you can easily file any complaint or just check the status of your complaint.
+      For filing a complaint visit: http://www.rmc.gov.in/rmcwebsite/complainregistration.aspx
+      For checking the status of your complaint visit: http://www.rmc.gov.in/rmcwebsite/complaintstatus.aspx'
+
+      We hope this was helpful.Come back soon! :)
 
 actions:
 - utter_greet

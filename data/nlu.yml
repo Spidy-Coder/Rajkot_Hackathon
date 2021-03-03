@@ -126,6 +126,7 @@ nlu:
     - how to file complain
     - i want to file complain
     - complain
+    - call center
 
 - intent: goodbye
   examples: |
