@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,11 +15,10 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: thanks
   examples: |
-    -
-- intent : what_is_rmc
+    - 
+- intent: what_is_rmc
   examples: |
     - What is rmc?
     - what is rajkot municiple corporation?
@@ -31,27 +29,29 @@ nlu:
     - where is rmc head office
     - rmc website
     - rmc contact
-
+    - what is rmc
 - intent: online_services
   examples: |
     - what services does rmc provide
     - online service
     - rmc services
-
+    - services
+    - online services
 - intent: property
   examples: |
     - what is property tax
     - can i know more about property tax
     - how do i pay property tax
     - property tax
-
+    - property
+    - property view
 - intent: water
   examples: |
     - water charges
     - how to pay water charges
     - what is water charge
     - can i know more about water charge
-
+    - water
 - intent: profession
   examples: |
     - profession tax
@@ -60,7 +60,7 @@ nlu:
     - what is water charge
     - can i know more about profession tax
     - registration certificate
-
+    - profession
 - intent: rti
   examples: |
     - what is rti
@@ -68,7 +68,7 @@ nlu:
     - rti disclosure
     - rti applicatoin status
     - rti proactive disclosure
-
+    - rti
 - intent: hall_booking
   examples: |
     - how do i book community hall
@@ -77,12 +77,12 @@ nlu:
     - auditorium hall booking
     - audirorium booking form
     - is any hall booking open
-
+    - booking
 - intent: sports
   examples: |
     - is sports registration open
     - sports registration
-
+    - sports
 - intent: shop
   examples: |
     - shop registration
@@ -90,7 +90,7 @@ nlu:
     - application form
     - insrtuction for shop establisment
     - new shop registration
-
+    - shop
 - intent: city_bus
   examples: |
     - bus pass
@@ -98,16 +98,14 @@ nlu:
     - student bus pass
     - city bus pass
     - brts bus pass
-
 - intent: e_memo
   examples: |
-     - memo
-     - memo payment
-     - how do i pay memo
-     - vehicle memo
-     - what is e-memo
-     - what is memo
-
+    - memo
+    - memo payment
+    - how do i pay memo
+    - vehicle memo
+    - what is e-memo
+    - what is memo
 - intent: vehicle
   examples: |
     - individual vehicle tax
@@ -116,7 +114,6 @@ nlu:
     - how do i pay vehicle tax
     - how to pay vehicle tax
     - vehicle
-
 - intent: call_center
   examples: |
     - complain registration
@@ -127,7 +124,6 @@ nlu:
     - i want to file complain
     - complain
     - call center
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -141,7 +137,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -150,7 +145,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -160,7 +154,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -177,7 +170,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -194,7 +186,6 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
