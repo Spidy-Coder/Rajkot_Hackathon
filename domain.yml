@@ -63,6 +63,7 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  #services response
   utter_services:
   - text: |-
       We offer the following services:
