@@ -63,6 +63,7 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  
   #services response
   utter_services:
   - text: |-
@@ -78,11 +79,15 @@ responses:
       9.  E-memo
       10. VehicleTax
       11. 24*7 Call Center'
+      
+  #RMC response
   utter_rmc:
   - text: |-
       Rajkot Municipal Corporation (RMC) is a local government committed to provide basic infrastructure facilities including entertainment facilities to the people of the city. 
       RMC is very well known for managing the city by using private sector participation as well as the introduction of innovative mechanisms in management to serve people efficiently. The city has prepared different plans for improving services and nullifying the gap between services and demands.
       We hope this was helpful.Come back soon! :)
+      
+  #Property response
   utter_property:
   - text: |-
       Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. The tax must be paid every year.
@@ -90,6 +95,8 @@ responses:
       2.To view property payment:-http://rmc.gov.in/rmcwebsite/tax_new.aspx
       3.To view property tax bills/receipt: http://rmc.gov.in/rmcwebsite/tax_bill_receipt_new.aspx'
       We hope this was helpful.Come back soon! :)
+      
+  #Water response
   utter_water:
   - text: |-
       Having access to safe drinking water is a basic human right.The water charges by RMC are fair and equal to all the residents.
@@ -97,6 +104,8 @@ responses:
       2.To view water charge:-http://rmc.gov.in/rmcwebsite/water_tax.aspx
       3.To view water charge bills/receipt:http://rmc.gov.in/rmcwebsite/water_tax_bill_receipt.aspx
       We hope this was helpful.Come back soon! :)
+      
+  #Profession response
   utter_profession:
   - text: |-
       Professional tax can be defined as a tax that is levied by a state government on all individuals who earn a living through any medium.This is a type of tax that needs to be paid by each and every individual earning income.
@@ -104,17 +113,23 @@ responses:
       2.To make profession tax payment(RC):-http://rmc.gov.in/rmcwebsite/frm_profession_tax_rc_payment.aspx
       3.To view profession tax payment history:-http://rmc.gov.in/rmcwebsite/professional_tax_history.aspx
       We hope this was helpful.Come back soon! :)
+      
+  #RTI response
   utter_rti:
   - text: |-
       RTI stands for Right To Information Act.It means that any Indian citizen can request any information (which is supposed to be public knowledge) from the offices and departments of the state or central governments.
       1.To view RTI Application status:-http://rmc.gov.in/rmcwebsite/rti_status.aspx
       2.For RTI Proactive disclosure:-http://rmc.gov.in/rmcwebsite/rti.aspx
       We hope this was helpful.Come back soon! :)
+      
+  #Booking response
   utter_booking:
   - text: |-
       Due to the spread of Covid-19,please take required preventive measures.
       To book your desired community hall,kindly go to:-http://rmc.gov.in/rmcwebsite/hall_booking.aspx
       We hope this was helpful.Come back soon! :)
+      
+  #Shop response
   utter_shop:
   - text: |-
       Here are the links to required documents for Shop and Establishment.Kindly visit the websites as per your need.
@@ -123,24 +138,34 @@ responses:
       Instruction: http://www.rmc.gov.in/rmcwebsite/docs/shop_esta/instruction.pdf
       New Shop Registration: http://www.rmc.gov.in/rmcwebsite/frm_shop_registration.aspx'
       We hope this was helpful.Come back soon! :)
+      
+  #Sports response
   utter_sports:
   - text: |-
       Currently the sports registrations are postponed till the next announcement but Tennis Court, Athletic Track, Gym and Basketball Batch are open.
       For more information visit: http://www.rmc.gov.in/rmcwebsite/frm_sports_member_master.aspx'
       We hope this was helpful.Come back soon! :)
+      
+  #Bus response
   utter_bus:
   - text: |-
       You can get your student pass, bus pass, brts pass or city bus pass by entering your aadhaar number on this website: http://www.rmc.gov.in/rmcwebsite/frm_rajpath_registration.aspx
       We hope this was helpful.Come back soon! :)
+      
+  #E-Memo response
   utter_ememo:
   - text: |-
       You can easily pay your vehicle memo on our website by just entering your vehicle number on this website : http://www.rmc.gov.in/rmcwebsite/frm_ememo_payment.aspx
       We hope this was helpful.Come back soon! :)
+      
+  #Vehicle response
   utter_vehicle:
   - text: |-
       You can pay your individual and dealer vehicle on our website itself.
       For paying your individual and dealer vehicle tax visit: http://www.rmc.gov.in/rmcwebsite/frm_vt_home.aspx'
       We hope this was helpful.Come back soon! :)
+      
+  #Call-center response
   utter_call_center:
   - text: |-
       On our website you can easily file any complaint or just check the status of your complaint.
