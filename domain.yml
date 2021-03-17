@@ -105,7 +105,7 @@ responses:
       3.To view water charge bills/receipt:http://rmc.gov.in/rmcwebsite/water_tax_bill_receipt.aspx
       We hope this was helpful.Come back soon! :)
       
-  #Profession response
+  #profession response
   utter_profession:
   - text: |-
       Professional tax can be defined as a tax that is levied by a state government on all individuals who earn a living through any medium.This is a type of tax that needs to be paid by each and every individual earning income.
